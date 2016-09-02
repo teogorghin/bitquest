@@ -526,8 +526,8 @@ public class BitQuest extends JavaPlugin {
                 }           
             
             } else {
-                // PLAYER COMMANDS
-
+                // PLAYER Message
+                sender.sendMessage(ChatColor.RED + "No enough permission.");
             }
         }
         return true;
